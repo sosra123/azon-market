@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AZON — Android Game Store</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: #ffffff;
+      color: #111111;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      padding: 25px;
+      border-bottom: 2px solid #111;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .logo {
+      font-size: 32px;
+      font-weight: bold;
+      letter-spacing: 3px;
+    }
+
+    nav a {
+      color: #111;
+      text-decoration: none;
+      margin-left: 15px;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 65px 20px;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      color: #666;
+    }
+
+    .games {
+      padding: 25px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .game {
+      border: 2px solid #111;
+      border-radius: 15px;
+      padding: 25px;
+      margin-top: 20px;
+    }
+
+    .download {
+      display: inline-block;
+      background: #111;
+      color: white;
+      padding: 13px 25px;
+      border-radius: 8px;
+      text-decoration: none;
+      margin-top: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      border-top: 1px solid #ddd;
+      margin-top: 60px;
+      color: #777;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">AZON</div>
+    <nav>
+      <a href="#games">Игры</a>
+      <a href="#about">О нас</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>AZON</h1>
+    <p>Твоя коллекция Android-игр!</p>
+  </section>
+
+  <section class="games" id="games">
+    <h2>Мои игры</h2>
+
+    <div class="game">
+      <h3>Моя первая игра</h3>
+      <p>Android • APK</p>
+      <a class="download" href="games/my-game.apk">
+        Скачать APK
+      </a>
+    </div>
+  </section>
+
+  <section class="games" id="about">
+    <h2>О AZON</h2>
+    <p>AZON — сайт для скачивания моих Android-игр.</p>
+  </section>
+
+  <footer>
+    © 2026 AZON. Все права защищены.
+  </footer>
+
+</body>
+</html>
